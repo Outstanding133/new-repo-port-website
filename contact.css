@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sigmar&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #e0e0e0;
+}
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #2d2d2d;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #e0e0e0;
+}
+  
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+  
+.logo {
+    width: 40px;
+    height: 40px;
+    background-color: #ff7f50;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+    color: white;
+    font-weight: bold;
+}
+  
+.name a {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+}
+  
+.nav-links {
+    display: flex;
+}
+  
+.nav-link {
+    margin-left: 15px;
+    padding: 10px 20px;
+    border: 2px solid #000000;
+    border-radius: 25px;
+    text-decoration: none;
+    color: #333;
+    font-size: 20px;
+    transition: all 0.3s ease;
+}
+  
+.nav-link:hover {
+    background-color: #fa793b;
+}
+
+.navbar-items {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.navbar-item a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #2d2d2d;
+    font-size: 16px;
+    border: 1px solid red;
+    margin-bottom: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar-item a:hover {
+    background-color: #e0e0e0;
+    color: #000;
+}
+
+.page1 {
+    position: relative;
+    overflow: hidden;
+}
+
+.page1 img {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+.contact-heading{
+    width: 740.312px;
+height: 495px;
+display: block;
+position: absolute;
+top: 200px;
+right: 0px;
+bottom: 0px;
+left: 80px;
+font-size: 10px;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 400;
+color: rgb(0, 0, 0);
+line-height: 50px;
+}
+.contact-heading h1{
+    display: inline;
+font-size: 100px;
+font-family: poppins-semibold, poppins, sans-serif;
+line-height: 110px;
+color: rgb(45, 45, 45);
+}
+.contact-mail h3{
+    display: inline;
+font-size: 24px;
+font-family: helvetica-w01-roman, sans-serif;
+font-weight: 400;
+color: rgb(45, 45, 45);
+
+}
+.contact-button a{
+    margin-left: 15px;
+    padding: 10px 20px;
+    border: 2px solid #000000;
+    border-radius: 25px;
+    text-decoration: none;
+    color: #333;
+    font-size: 20px;
+    transition: all 0.3s ease;
+}
+.contact-button a:hover{
+    background-color: #fa793b;
+}
+.contact-others{
+    width: 302.087px;
+height: 395px;
+display: block;
+position: absolute;
+top: 200px;
+right: 20px;
+bottom: 0px;
+/* left: 0px; */
+font-size: 10px;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 400;
+color: rgb(0, 0, 0);
+
+text-align: right;
+}
+.contact-others a{
+   position: relative;
+top: 50px;
+font-size: 60px;
+text-decoration: none;
+color: rgb(45, 45, 45);
+}
+.long-line {
+    border: none;
+    height:0.5px;
+    background-color: black;
+    width: 90%;
+    /* text-align: center; */
+    margin: 20px auto;
+}
+.long-linee {
+    border: none;
+    height:0.5px;
+    background-color: black;
+    width: 90%;
+    /* text-align: center; */
+    margin: 20px auto; 
+    position: relative;
+    top: 600px;
+}
+@media (max-width: 768px) {
+    .contact-heading {
+        width: 90%;
+        top: 150px;
+        left: 5%;
+        text-align: center;
+    }
+
+    .contact-heading h1 {
+        font-size: 60px;
+        line-height: 70px;
+    }
+
+    .contact-mail h3 {
+        font-size: 20px;
+    }
+
+    .contact-others {
+        width: 100%;
+        top: 400px;
+        right: 0;
+        text-align: center;
+    }
+
+    .contact-others a {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 480px) {
+    .contact-heading {
+        width: 100%;
+        top: 100px;
+        left: 0;
+        text-align: center;
+    }
+
+    .contact-heading h1 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .contact-mail h3 {
+        font-size: 16px;
+    }
+
+    .contact-others {
+        width: 100%;
+        top: 300px;
+        text-align: center;
+    }
+
+    .contact-others a {
+        font-size: 30px;
+    }
+}
